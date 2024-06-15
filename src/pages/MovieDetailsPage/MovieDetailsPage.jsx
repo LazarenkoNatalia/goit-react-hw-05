@@ -13,7 +13,7 @@ const MovieDetailsPage = () => {
   const location = useLocation()
 
   const goBack = useRef(location.state.from ?? '/')
-// console.log(goBack)
+//  console.log(goBack)
 
   const defaultmovie = {
     movieImg: 'https://dl-media.viber.com/10/share/2/long/vibes/icon/image/0x0/95e0/5688fdffb84ff8bed4240bcf3ec5ac81ce591d9fa9558a3a968c630eaba195e0.jpg',
@@ -48,7 +48,7 @@ const MovieDetailsPage = () => {
       <img src={
         movies.poster_path ?
           `https://image.tmdb.org/t/p/w500/${movies.poster_path}`
-        : defaultmovie.defaultImg
+        : defaultmovie.movieImg
 } className={stylMovDet.movieImg}
 width={250}
 alt={movies.title|| defaultmovie.title}

@@ -19,7 +19,7 @@ function MoviesPage() {
 
   const queryparams = params.get("search");
 
-console.log(location.state)
+// console.log(location.state)
 
   useEffect(() => {
     if (!queryparams) {
@@ -67,9 +67,9 @@ const handleClicMoreBtn = () => {
     setParams({ search: query });
     setPage(1);
 
-    if (findMovies.length === 0) {
-      toast.error("Not found anything");
-    }
+    // if (findMovies.length === 0) {
+    //   toast.error("Not found anything");
+    // }
   };
 
    useEffect(() => {
@@ -81,6 +81,8 @@ window.scrollBy({
       });
  }, [page]);
 
+ 
+  
   // console.log(location)
   return (
     <>
