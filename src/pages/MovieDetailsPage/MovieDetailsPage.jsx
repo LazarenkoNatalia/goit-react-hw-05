@@ -12,7 +12,7 @@ const MovieDetailsPage = () => {
   const { movieId } = useParams()
   const location = useLocation()
 
-  const goBack = useRef(location.state.from ?? '/')
+  const goBack = useRef(location.state?.from ?? '/')
 //  console.log(goBack)
 
   const defaultmovie = {
