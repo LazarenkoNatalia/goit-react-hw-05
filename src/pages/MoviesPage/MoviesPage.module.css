@@ -1,0 +1,39 @@
+.container {
+    max-width: 1200px;
+    margin: 10px auto 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+
+.movieInfo {
+    padding: 15px;
+}
+
+.movieTitle {
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+}
+

@@ -1,0 +1,39 @@
+.containerCast {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.listCast {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.itemCast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.imgCast {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+   
+}
+
+.infoCast {
+    margin-top: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,22 @@
+.liRev {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+.ulRev {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerRev {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: block;
+  
+}

@@ -1,0 +1,85 @@
+.detailsMov {
+  width: 100%-500px;  
+}
+
+.goBack {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.goBack:hover {
+    text-decoration: underline;
+}
+
+.movieDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.movieImg {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.movieTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sectionTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.movieOverview {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+
+.ulDet {
+    padding-left: 0;
+}
+
+.liDet {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 15px;}
+
+.lipDet {
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.isActive {
+    font-style: italic;
+    font-weight: 500;
+    color: gray;
+   
+}

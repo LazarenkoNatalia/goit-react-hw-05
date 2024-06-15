@@ -1,0 +1,23 @@
+.link {
+   
+    text-decoration: none;
+    color: black;
+}
+
+.isActive {
+    text-decoration: underline;
+    color: blue;
+}
+
+.container  {
+     position: fixed;
+     top: 0;
+     left: 46%;
+     display: flex;
+     gap: 10px;
+     justify-content: center;
+     width: 100px;
+     height: 65px;
+    
+ }
+
